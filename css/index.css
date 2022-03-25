@@ -1,4 +1,53 @@
-body {
+body {   
     background-image: linear-gradient(to right, white 55%, #6ec5ce 45%);
     font-family: 'Roboto', sans-serif;
+        }
+    
+    .col-left{
+    width: 55%;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 30px;
+    padding-top: 50px;
+    font-size: 270%;
+    
+    
+
+
+        }
+
+.col-rig{
+    width: 45%;
+
+}
+
+.container{
+    display: flex;
+
+
+}
+
+.icon{
+    width: 50px;
+    float: right;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.icon2{
+    width: 40px;
+}
+
+.img1{
+    width: 45%;
+    float: left;
+    padding-left: 40px ;
+    padding-top: 380px;
+}
+
+.img2{
+    width: 35%;
+    float: right;
+    padding-top: 520px;
+    padding-right: 20px;
 }
