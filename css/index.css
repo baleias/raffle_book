@@ -1,53 +1,135 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body {   
     background-image: linear-gradient(to right, white 55%, #6ec5ce 45%);
     font-family: 'Roboto', sans-serif;
-        }
-    
-    .col-left{
-    width: 55%;
-    text-align: left;
-    padding-left: 80px;
-    padding-right: 30px;
-    padding-top: 50px;
-    font-size: 270%;
-    
-    
-
-
-        }
-
-.col-rig{
-    width: 45%;
-
 }
 
 .container{
     display: flex;
+    width: 100%;
+    height: 90%;
+}
 
 
+/* COLUNA ESQUERDA */
+
+.col-left > a {
+    text-decoration: none;
+}
+
+.logo-dunder {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    font-weight: 150;
+    color: black;
+    letter-spacing: -1.2px;
+}
+
+.col-left{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    margin-left: 3em;
+    padding-top: 50px
+}
+
+.main-title{
+    font-weight: 300;
+    font-size: 2em;
+    font-weight: 150;
+    color: black;
+    letter-spacing: -1.2px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.main-area-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-area-text > p {
+    width: 80%;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.index-main-text > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.index-main-text > a:hover{
+    text-decoration: underline;
+    color: #6ec5ce;
+}
+
+.connect-button{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.connect-button > p {
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 1%;
+    color: black;
+}
+
+.connect-button > p:hover{
+    text-decoration: underline;
+    color: #6ec5ce;
+}
+
+
+.icon-git-hub-connect{
+    width: 1.5em;
+}
+
+/* COLUNA DIREITA */
+
+.col-rig{
+    width: 40%;
+    margin-right: 3em;
+}
+
+.icons-top{
+    
 }
 
 .icon{
-    width: 50px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    width: 2.4em;
     float: right;
     padding-top: 50px;
-    padding-right: 20px;
+    padding-right: 1.5%;
 }
 
-.icon2{
-    width: 40px;
+.all-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 15%;
 }
-
 .img1{
-    width: 45%;
-    float: left;
-    padding-left: 40px ;
-    padding-top: 380px;
+    width: 40%;
 }
 
 .img2{
-    width: 35%;
-    float: right;
-    padding-top: 520px;
-    padding-right: 20px;
+    width: 30%;
 }
