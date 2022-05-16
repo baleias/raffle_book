@@ -12,6 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body.subscription {   
+    background-image: linear-gradient(to right,#6ec5ce 45%, white 45%);
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -38,7 +43,7 @@ body {
     width: 50%;
     height: 100%;
     text-align: left;
-    margin-left: 3em;
+    padding-left: 3em;
     padding-top: 50px
 }
 
@@ -102,20 +107,20 @@ body {
 
 /* COLUNA DIREITA */
 
-.col-rig{
+.col-right {
     width: 40%;
     margin-right: 3em;
 }
 
-.icons-top{
-    
+.subscription .icon {
+    filter: invert(80%) sepia(39%) saturate(446%) hue-rotate(135deg) brightness(85%) contrast(88%);
 }
 
-.icon{
+.icon {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     width: 2.4em;
     float: right;
-    padding-top: 50px;
+    padding-top: 44px;
     padding-right: 1.5%;
 }
 
@@ -130,6 +135,56 @@ body {
     width: 40%;
 }
 
+.subscription .img1{
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
 .img2{
     width: 30%;
 }
+
+#titulo-inscrição{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #000000;
+}
+
+form label{
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+form input{
+    width: 94%;
+}
+
+form select{
+    width: 100%;
+}
+
+form input, form select{
+    border: 1px solid #898989;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.group{
+    display: inline-grid;
+    width: 45%;
+    margin: 0 24px 0 0;
+}
+
+form button[type="submit"]{
+    display: table;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+    background-color: #6ec5ce;
+    padding: 5px 78px;
+    color: #fff;
+}
+
