@@ -175,8 +175,8 @@ form input, form select{
 
 .group{
     display: inline-grid;
-    width: 45%;
-    margin: 0 24px 0 0;
+    width: 47%;
+    margin: 0 10px 0 0;
 }
 
 form button[type="submit"]{
